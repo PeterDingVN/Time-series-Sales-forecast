@@ -4,6 +4,7 @@ From available data about performance of company across many media platforms, bu
 
 ## Overview (only for modelling)
 Note: if you want to see full analysis, check out the code script: 
+12_Capstone_WORK.ipynb
 
 Account subscription by week:
 <img width="1001" height="419" alt="image" src="https://github.com/user-attachments/assets/4f694956-374c-492c-8eff-9158fe95bd54" />
@@ -11,8 +12,8 @@ Account subscription by week:
 As shown, the sales peak around May to July every year for 3 consecutive years. Similarly, the trend line goes sideway, signalling no clear trend. Therefore, this data is stationary while having seasonality.
 
 ## Modelling
-Afterr testing with OLS, ARIMA, SARIMA, ARIMAX, and SARIMAX, I finally choose ARIMA with hyper-parameters as
-The model performs better than the others in terms of RMSE, MAPE, AIC and BIC
+Afterr testing with OLS, ARIMA, SARIMA, ARIMAX, and SARIMAX, I finally choose ARIMA with hyper-parameters as 3,0,3 for p,d,q respectively.
+This model performs better than the others in terms of RMSE, MAPE, AIC and BIC. For detail metrics' values, check out the code script.
 
 ## Result
 
